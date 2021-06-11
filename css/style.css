@@ -1,0 +1,26 @@
+body, h1, h2, p, ul, li, a{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+    color: #222222;
+}
+
+ul {
+    list-style: none; /*Com esse comando, nós tiramos a marcação do li, seja de numeração ou de bolinha*/
+}
+
+a {
+    text-decoration: none; /*Tira o sublinhado que fica no link*/
+}
+
+img {
+    display: block;
+    max-width: 100%; /*Deixa as imagens responsivas*/
+}
+
+* {
+    box-sizing: border-box;
+}
